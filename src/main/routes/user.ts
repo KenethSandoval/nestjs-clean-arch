@@ -19,11 +19,11 @@ export class UserRoutes {
     return adaptNestRouter(this.createUserHandler)(body, res);
   }
 
-  /*@Get()
+  @Get()
   async load(
     @Body() body: CreateUserHandler.Input,
     @Res() res: Response,
   ): Promise<RequestHandler> {
     return adaptNestRouter(this.loadUserHandler)(body, res);
-  }*/
+  }
 }
