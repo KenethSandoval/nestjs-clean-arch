@@ -1,1 +1,1 @@
-export class LoadUserHander {}
+export class LoadUserHandler {}
